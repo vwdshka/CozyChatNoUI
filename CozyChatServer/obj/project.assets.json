@@ -1,0 +1,75 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\UserPC\\.nuget\\packages\\": {},
+    "C:\\Users\\UserPC\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\UserPC\\Desktop\\CozyChat\\CozyChatSkeleton\\CozyChat\\CozyChatServer\\CozyChatServer.csproj",
+      "projectName": "CozyChatServer",
+      "projectPath": "C:\\Users\\UserPC\\Desktop\\CozyChat\\CozyChatSkeleton\\CozyChat\\CozyChatServer\\CozyChatServer.csproj",
+      "packagesPath": "C:\\Users\\UserPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\UserPC\\Desktop\\CozyChat\\CozyChatSkeleton\\CozyChat\\CozyChatServer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\UserPC\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\UserPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\UserPC\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://nuget.info/packages/MySql.Data/8.0.32.1": {},
+        "https://nuget.org": {},
+        "https://www.nuget.org/": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

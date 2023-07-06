@@ -1,0 +1,15 @@
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\bin\Debug\net7.0\CozyChatServer.exe
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\bin\Debug\net7.0\CozyChatServer.deps.json
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\bin\Debug\net7.0\CozyChatServer.runtimeconfig.json
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\bin\Debug\net7.0\CozyChatServer.dll
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\bin\Debug\net7.0\CozyChatServer.pdb
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\CozyChatServer.csproj.AssemblyReference.cache
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\CozyChatServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\CozyChatServer.AssemblyInfoInputs.cache
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\CozyChatServer.AssemblyInfo.cs
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\CozyChatServer.csproj.CoreCompileInputs.cache
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\CozyChatServer.dll
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\refint\CozyChatServer.dll
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\CozyChatServer.pdb
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\CozyChatServer.genruntimeconfig.cache
+C:\Users\UserPC\Desktop\CozyChat\CozyChatSkeleton\CozyChat\CozyChatServer\obj\Debug\net7.0\ref\CozyChatServer.dll

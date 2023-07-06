@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CozyChatClient", "CozyChat\CozyChatClient.csproj", "{1198A248-2DEE-4D4F-A7F3-E2E2417BB832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozyChatServer", "CozyChatServer\CozyChatServer.csproj", "{95402C61-8DB5-410C-80C2-5027B3799258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1198A248-2DEE-4D4F-A7F3-E2E2417BB832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1198A248-2DEE-4D4F-A7F3-E2E2417BB832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1198A248-2DEE-4D4F-A7F3-E2E2417BB832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1198A248-2DEE-4D4F-A7F3-E2E2417BB832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95402C61-8DB5-410C-80C2-5027B3799258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95402C61-8DB5-410C-80C2-5027B3799258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95402C61-8DB5-410C-80C2-5027B3799258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95402C61-8DB5-410C-80C2-5027B3799258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24E525C9-5FAD-4BC1-B1F9-035CF233356A}
+	EndGlobalSection
+EndGlobal
