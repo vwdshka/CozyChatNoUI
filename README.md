@@ -3,6 +3,7 @@
 💬 A chat client and a chat server that allows concurrent sessions to exchange messages between them in real time.
 
 💻 The application has been built with C# as well as with its .NET Framework 6.0 .
+
 💻 The application also has a mock-up server which catches the interactions made with a client in real-time and uses WPF (Windows Presentation Foundation) for some components of the UI.
 
 Some of the basic functionalities that are included within this app are:
