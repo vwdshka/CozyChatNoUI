@@ -10,5 +10,7 @@ Some of the basic functionalities that are included within this app are:
 • Creating Network Packets such as TCP, TCPListener and TCPClient for the end-user's safety while transferring files.
 
 • In order to create a network buffer, there are both a memory and a network stream being used in the application.
+
 • Every and each one of the users can send a message to anyone who appears 'online' in the application.
+
 • Before the client's message is rendered the server received the message and then later on broadcasts the stringified version of the client's message.
