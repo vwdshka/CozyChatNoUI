@@ -1,17 +1,45 @@
-# CozyChatNoUI
+# CozyChat
 
-💬 A chat client and a chat server that allows concurrent sessions to exchange messages between them in real time.
+Establishes real-time, concurrent multi-user communication through a custom TCP-based client-server architecture.
 
-💻 The application has been built with C# as well as with its .NET Framework 6.0 .
+## The Problem
 
-💻 The application also has a mock-up server which catches the interactions made with a client in real-time and uses WPF (Windows Presentation Foundation) for some components of the UI.
+Standard HTTP polling introduces significant latency and overhead for real-time applications. This project addresses the need for instantaneous, bi-directional communication by bypassing higher-level protocols and implementing a direct TCP socket solution. It solves the core complexities of custom packet serialization, multi-threaded connection handling, and continuous data broadcasting in a distributed environment.
 
-Some of the basic functionalities that are included within this app are:
+## Architecture
 
-• Creating Network Packets such as TCP, TCPListener and TCPClient for the end-user's safety while transferring files.
+```mermaid
+flowchart LR
+    subgraph Client [WPF Desktop Client]
+        UI[WPF Interface]
+        TC[TcpClient]
+        UI <-->|Async Event Updates| TC
+    end
 
-• In order to create a network buffer, there are both a memory and a network stream being used in the application.
+    subgraph Server [CozyChat Central Server]
+        TL[TcpListener]
+        Stream[Network & Memory Streams]
+        Router[Broadcast Router]
+        TL <-->|Accepts/Sends Data| Stream
+        Stream <-->|Packet Parsing| Router
+    end
 
-• Every and each one of the users can send a message to anyone who appears 'online' in the application.
+    TC <-->|Persistent TCP Connection| TL
 
-• Before the client's message is rendered the server received the message and then later on broadcasts the stringified version of the client's message.
+```
+
+## Quickstart
+
+```bash
+git clone https://github.com/vwdshka/CozyChatNoUI.git
+cd CozyChatNoUI
+dotnet build CozyChat.sln
+
+```
+
+## Design Decisions
+
+* **Raw TCP Sockets (`TcpListener` / `TcpClient`):** Chosen over HTTP REST or SignalR to maximize throughput and minimize packet header overhead. Managing raw TCP connections ensures strict, low-level control over the continuous, bi-directional data pipelines required for low-latency messaging.
+* **Stream-Based Buffering:** Utilizing a combination of `NetworkStream` and `MemoryStream` guarantees safe packet assembly. Because TCP is a continuous streaming protocol (which can fragment data across packets), the `MemoryStream` acts as a crucial intermediate buffer to completely construct custom network packets before they are deserialized, preventing data corruption or dropped messages.
+* **WPF (Windows Presentation Foundation):** Selected for the client application to leverage native hardware acceleration and strict data-binding mechanisms. This ensures the chat interface remains highly responsive and unblocked while background threads seamlessly process continuous network I/O operations.
+* **Centralized Broadcast Topology:** The server acts as the single source of truth for all concurrent sessions. By routing all client packets through a central node before stringifying and broadcasting the payload to "online" clients, the architecture prevents client-side state desynchronization and ensures a verifiable communication loop.
